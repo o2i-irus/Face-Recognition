@@ -43,7 +43,7 @@ from face_recognition.face_recognition_cli import image_files_in_folder
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
 
-def predict(X_img_path, knn_clf=None, model_path=None, distance_threshold=0.9):
+def predict(X_img_path, knn_clf=None, model_path=None, distance_threshold=0.6):
     """
     Recognizes faces in given image using a trained KNN classifier
 
