@@ -1,0 +1,1 @@
+powershell;  Start-Process data\python-3.7.8.exe -Wait; Start-Process data\cmake-3.18.0-win32-x86.msi -Wait; Start-Process data\vs_community__2131685055.1579382626.exe -Wait; 
